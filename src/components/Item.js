@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import { AppContext } from "../context";
 import styled from "styled-components";
 
-
 const Item = (props) => {
   const { handleSetPopup, popup } = useContext(AppContext);
   const { name, birth_year, gender, id } = props;
@@ -37,6 +36,9 @@ const StyledItem = styled.div`
   margin: 2rem;
   display: flex;
   position: relative;
+  @media (max-width: 730px) {
+    width: 90%;
+  }
 `;
 
 const StyledInfoContainer = styled.div`

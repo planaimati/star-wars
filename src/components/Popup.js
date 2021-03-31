@@ -47,6 +47,9 @@ const StyledContainer = styled.div`
   transform: translate(-50%, -50%);
   display: ${(props) => (props.display ? "flex" : "none")};
   flex-direction: column;
+  @media (max-width: 730px) {
+    width: 90%;
+  }
 `;
 
 const TitleContainer = styled.div`

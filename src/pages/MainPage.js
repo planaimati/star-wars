@@ -12,6 +12,9 @@ const StyledContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  @media (max-width: 730px) {
+    width: 100%;
+  }
 `;
 
 export default MainPage;

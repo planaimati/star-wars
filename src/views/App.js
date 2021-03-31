@@ -49,6 +49,9 @@ const StyledHeader = styled.h1`
   margin: 2rem;
   font-size: 4rem;
   letter-spacing: 0.2rem;
+  @media (max-width: 730px) {
+    font-size: 2rem;
+  }
 `;
 
 export default App;
